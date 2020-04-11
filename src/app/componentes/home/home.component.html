@@ -1,0 +1,13 @@
+<h1 *ngIf='expression'>Bienvenido administrador</h1>
+
+<h1 [hidden]='expression' >Bienvenido administrador hidden</h1>
+
+<h1 *ngIf='perfil== admin'>Bienvenido administrador if compuesto</h1>
+
+<div *ngFor='let item of lista'>
+    <span>Nombre: {{item.nombre}}</span>
+    <br>
+    <span>perfil: {{item.perfil}}</span>
+</div>
+
+<button (click)='ocultarMostrar()'>Ocultar/Mostrar</button>
