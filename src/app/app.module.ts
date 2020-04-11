@@ -8,7 +8,6 @@ import { FormsModule } from '@angular/forms';
 import { LoginComponent } from './componentes/login/login.component';
 import { ErrorComponent } from './componentes/error/error.component';
 import { HomeComponent } from './componentes/home/home.component';
-import { AdminComponent } from './page/input/admin/admin.component';
  
 @NgModule({
   declarations: [
@@ -16,8 +15,7 @@ import { AdminComponent } from './page/input/admin/admin.component';
     BienvenidaComponent,
     LoginComponent,
     ErrorComponent,
-    HomeComponent,
-    AdminComponent
+    HomeComponent
   ],
   imports: [
     BrowserModule,
