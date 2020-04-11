@@ -8,6 +8,6 @@ app.listen(process.env.PORT || 8080);
 
 app.get('/*', function(req, res){
     res.sendFile(path.join(_dirname + '/angularapp/index.html'));
-})
+});
 
 console.log('finalizo');
